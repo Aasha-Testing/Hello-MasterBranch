@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="52.473127">
+<testcase classname="To validate the login functionality of the given application" name="To verify the login functionality of the facebook application with given credentials" time="0.270871">
+<system-out><![CDATA[When User will enter the UserId and Password in the respective field........passed
+And User will click the login button........................................passed
+Then User is verifying the fb functionality.................................passed
+Then User is verifying the fb functionality  sysout.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of the given application" name="To verify the login functionality of the instagram application with given credentials" time="52.202256">
+<system-out><![CDATA[When User will enter the UserId and Password in the respective Fields.......passed
+And User will click the login btn...........................................passed
+Then User is verifying the ins functionality................................passed
+Then User is verifying the ins functionality  sysout........................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,242 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T09:33:12.515Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2810200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.implicitWait()"
+            }
+          },
+          {
+            "result": {
+              "duration": 266800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.ScreenShot()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To verify the login functionality of the facebook application with given credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-given-application;to-verify-the-login-functionality-of-the-facebook-application-with-given-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 450400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.screenShot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2919700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.clearCookies()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4426600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User will enter the UserId and Password in the respective field",
+            "match": {
+              "location": "StepDefinition.userWillEnterTheUserIdAndPasswordInTheRespectiveField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1835000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User will click the login button",
+            "match": {
+              "location": "StepDefinition.user_will_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1714900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is verifying the fb functionality",
+            "match": {
+              "location": "StepDefinition.user_is_verifying_the_fb_functionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5406700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is verifying the fb functionality  sysout",
+            "match": {
+              "location": "StepDefinition.userIsVerifyingTheFbFunctionalitySysout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T09:33:12.826Z",
+        "before": [
+          {
+            "result": {
+              "duration": 890300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserLaunching()"
+            }
+          },
+          {
+            "result": {
+              "duration": 403000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.implicitWait()"
+            }
+          },
+          {
+            "result": {
+              "duration": 158400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.ScreenShot()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To verify the login functionality of the instagram application with given credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-given-application;to-verify-the-login-functionality-of-the-instagram-application-with-given-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 307600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.screenShot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 113800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.clearCookies()"
+            }
+          },
+          {
+            "result": {
+              "duration": 119300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43115844100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User will enter the UserId and Password in the respective Fields",
+            "match": {
+              "location": "StepDefinition.userWillEnterTheUserIdAndPasswordInTheRespectiveFields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9070011000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User will click the login btn",
+            "match": {
+              "location": "StepDefinition.userWillClickTheLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1226400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is verifying the ins functionality",
+            "match": {
+              "location": "StepDefinition.userIsVerifyingTheInsFunctionality()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 983400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is verifying the ins functionality  sysout",
+            "match": {
+              "location": "StepDefinition.userIsVerifyingTheInsFunctionalitySysout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of the given application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-given-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": []
+  }
+]
